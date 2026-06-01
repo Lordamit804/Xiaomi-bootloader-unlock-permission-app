@@ -1,0 +1,6 @@
+{
+  "name": "Xiaomi Bootloader Unlock Permission",
+  "description": "Unlock permission guide, status checklist, wait-time countdown calculator, and fastboot details for Xiaomi, Redmi, and POCO devices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

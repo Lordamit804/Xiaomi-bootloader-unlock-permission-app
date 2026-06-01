@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow or Outline of the Lock -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#40FF6700"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M 36,46 h 36 v 28 c 0,4.4 -3.6,8 -8,8 H 44 c -4.4,0 -8,-3.6 -8,-8 Z" />
+
+    <!-- Unlocked Shackle (The top steel loop, raised & open indicating unlock success!) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M 42,46 V 32 c 0,-6.6 5.4,-12 12,-12 c 6.6,0 12,5.4 12,12 v 4" />
+
+    <!-- Lock Solid Body (Mi Vibrant Orange) -->
+    <path
+        android:fillColor="#FF6700"
+        android:pathData="M 36,46 h 36 v 28 c 0,4.4 -3.6,8 -8,8 H 44 c -4.4,0 -8,-3.6 -8,-8 Z" />
+
+    <!-- High-tech core keyhole of the Lock -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,54 m -4,0 a 4,4 0 1,1 8,0 a 4,4 0 1,1 -8,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 52,57 l -1.5,10 h 7 l -1.5,-10 z" />
+
+    <!-- Fastboot Logo Accent lines (representing unlocking interface) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 24,78 L 84,78" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#A0FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 40,82 L 68,82" />
+</vector>
